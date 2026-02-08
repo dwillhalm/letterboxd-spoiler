@@ -2,7 +2,7 @@
 
 A Python script in a Jupyter notebook to automatically batch-edit your Letterboxd reviews and mark them as containing spoilers. 
 
-I only realized after hundreds of reviews that the spoiler flag was not automatically raised when creating a review. I felt bad because a lot of my reviews contain spoilers but do not warn about it. I wrote this script to automate it. Note that using this is technically against the letterboxd terms of service but it is for a good cause so I hope it'll be excused that I share it here
+I only realized after hundreds of reviews that the spoiler flag was not automatically raised when creating a review. I felt bad because a lot of my reviews contain spoilers but do not warn about it. I wrote this script to automate it. Note that using this is technically against the letterboxd terms of service but it is for a good cause so I hope it'll be excused that I share it here.
 
 ## Features
 - Opens reviews automatically in your default browser.
@@ -43,9 +43,11 @@ Run the **"Calibration Cell"** inside the notebook. Using one link in the `revie
 ### 5. Update Configuration
 In the **"Configuration Cell"** of the notebook, update the variables with the numbers you gathered in the previous step:
 
-EDIT_BTN_X, EDIT_BTN_Y
-SPOILER_X, SPOILER_Y
-SAVE_BTN_X, SAVE_BTN_Y
+```python
+EDIT_BTN_X, EDIT_BTN_Y = ...
+SPOILER_X, SPOILER_Y = ...
+SAVE_BTN_X, SAVE_BTN_Y = ...
+```
 
 ### 6. Run the Automation
 Run the final cell in the notebook. Switch to your browser window and watch it work!
