@@ -1,4 +1,4 @@
-# Letterboxd Auto-Spoiler
+# Letterboxd Spoiler
 
 A Python script in a Jupyter notebook to automatically batch-edit your Letterboxd reviews and mark them as containing spoilers. 
 
@@ -19,7 +19,7 @@ I only realized after hundreds of reviews that the spoiler flag was not automati
 
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/dwillhalm/letterboxd-auto-spoiler.git](https://github.com/dwillhalm/letterboxd-auto-spoiler.git)
+   git clone [https://github.com/dwillhalm/letterboxd-spoiler.git](https://github.com/dwillhalm/letterboxd-spoiler.git)
    ```
 2. Install the required libraries:
     ```bash
